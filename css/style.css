@@ -186,3 +186,37 @@ img {
     font-size: 3rem;
     margin-bottom: 1rem;
 }
+.footer{
+    background-color: #008fd1;
+    padding-top: 1rem;
+    color: white;
+}
+.footer h2{
+    text-transform: uppercase;
+}
+.footer p{
+    line-height: 2;
+}
+@media (min-width:768px){
+    .footer .container{
+        display: flex;
+        justify-content: space-between;
+    }
+    .footer .box{
+        flex: 0 0 calc(33.3% - 1rem);
+    }
+}
+.footer ul{
+    list-style: none;
+    padding: 0;
+}
+.footer ul li {
+    margin-bottom: 1rem;
+}
+.footer ul li a{
+    color: white;
+    text-decoration: none;
+}
+.footer ul li a:hover{
+    text-decoration: underline;
+}
