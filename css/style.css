@@ -257,3 +257,9 @@ img {
 .social-nav a[href*='pinterest.com']::before{
     content: "\f231";
 }
+.copyright{
+    background-color: #004d70;
+    text-align: center;
+    margin: 3rem 0 0 0;
+    padding: 1rem 0;
+}
