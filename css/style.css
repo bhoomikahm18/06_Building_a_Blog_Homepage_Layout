@@ -220,3 +220,40 @@ img {
 .footer ul li a:hover{
     text-decoration: underline;
 }
+.social-nav{
+    display: flex;
+    justify-content: center;
+}
+@media (min-width:768px){
+    .social-nav{
+        justify-content: flex-end;
+    }
+}
+.social-nav span{
+    display: none;
+}
+.social-nav a{
+    margin-right: 1rem;
+    text-decoration: none;
+}
+.social-nav a::before {
+    font-family: "Font Awesome 5 Brands";
+    color: white;
+    font-size: 2rem;
+    
+}
+.social-nav a[href*='facebook.com']::before{
+    content: "\f39e";
+}
+.social-nav a[href*='twitter.com']::before{
+    content: "\f099";
+}
+.social-nav a[href*='youtube.com']::before{
+    content: "\f431";
+}
+.social-nav a[href*='instagram.com']::before{
+    content: "\f16d";
+}
+.social-nav a[href*='pinterest.com']::before{
+    content: "\f231";
+}
